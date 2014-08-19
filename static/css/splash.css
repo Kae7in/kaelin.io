@@ -15,7 +15,7 @@ body {
 	margin: auto;
 	margin-bottom: .5em;
 	border-style: solid;
-	border-width: 2px;
+	border-width: 4px;
 	/*border-color: rgb(170,170,170);*/
 	border-radius: 100;
 	width: 8em;
@@ -23,7 +23,7 @@ body {
 }
 
 .projects img {
-	width: 69px;
+	width: 50px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
     -ms-transition: all .5s ease; /* IE 9 */
@@ -32,11 +32,11 @@ body {
 }
 
 .projects:hover img {
-    -webkit-transform:scale(1.75); /* Safari and Chrome */
-    -moz-transform:scale(1.75); /* Firefox */
-    -ms-transform:scale(1.75); /* IE 9 */
-    -o-transform:scale(1.75); /* Opera */
-     transform:scale(1.75);
+    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+    -o-transform:scale(1.75) rotate(90deg); /* Opera */
+     transform:scale(1.75) rotate(90deg);
 }
 
 .about img {
@@ -49,11 +49,11 @@ body {
 }
 
 .about:hover img {
-    -webkit-transform:scale(1.75); /* Safari and Chrome */
-    -moz-transform:scale(1.75); /* Firefox */
-    -ms-transform:scale(1.75); /* IE 9 */
-    -o-transform:scale(1.75); /* Opera */
-     transform:scale(1.75);
+    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+    -o-transform:scale(1.75) rotate(90deg); /* Opera */
+     transform:scale(1.75) rotate(90deg);
 }
 
 .contact img {
@@ -91,7 +91,7 @@ body {
 }
 
 .splash-nav a {
-	margin: 2em;
+	margin: 3em;
 	font-family: "Open Sans";
 	font-size: 1.3em;
 	color: rgb(120,120,120);
