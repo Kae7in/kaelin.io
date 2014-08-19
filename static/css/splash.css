@@ -95,11 +95,6 @@ body {
 	position: relative;
 }
 
-.splash-nav #projects label { left:-19px; }
-.splash-nav #about label { left:-4px; }
-.splash-nav #contact label { left:-15px; }
-.splash-nav #resume label { left:-15px; }
-
 .splash-nav label {
 	position: absolute;
 	width: 100px;
@@ -112,13 +107,18 @@ body {
 	color: rgb(120,120,120);
 }
 
+.splash-nav #projects label { left:-19px; }
+.splash-nav #about label { left:-4px; }
+.splash-nav #contact label { left:-15px; }
+.splash-nav #resume label { left:-15px; }
+
 .splash-nav a label {
 	opacity: 0;
-	-webkit-transition: .2s linear;
-	-moz-transition: .2s linear;
-	-ms-transition: .2s linear;
-	-o-transition: .2s linear;
-	transition: .2s linear;
+	-webkit-transition: opacity .2s linear;
+	-moz-transition: opacity .2s linear;
+	-ms-transition: opacity .2s linear;
+	-o-transition: opacity .2s linear;
+	transition: opacity .2s linear;
 }
 
 .splash-nav a:hover label {
