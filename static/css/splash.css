@@ -22,7 +22,7 @@ body {
 	padding-bottom: 10px;
 }
 
-.projects img {
+#projects img {
 	width: 80px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
@@ -31,7 +31,7 @@ body {
     transition: all .5s ease;
 }
 
-.projects:hover img {
+#projects:hover img {
     -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
     -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
     -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
@@ -39,7 +39,7 @@ body {
      transform:scale(1.75) rotate(90deg);
 }
 
-.about img {
+#about img {
 	width: 80px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
@@ -48,7 +48,7 @@ body {
     transition: all .5s ease;
 }
 
-.about:hover img {
+#about:hover img {
     -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
     -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
     -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
@@ -56,7 +56,7 @@ body {
      transform:scale(1.75) rotate(90deg);
 }
 
-.contact img {
+#contact img {
 	width: 80px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
@@ -65,7 +65,7 @@ body {
     transition: all .5s ease;
 }
 
-.contact:hover img {
+#contact:hover img {
     -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
     -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
     -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
@@ -73,7 +73,7 @@ body {
      transform:scale(1.75) rotate(90deg);
 }
 
-.resume img {
+#resume img {
 	width: 80px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
@@ -82,7 +82,7 @@ body {
     transition: all .5s ease;
 }
 
-.resume:hover img {
+#resume:hover img {
     -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
     -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
     -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
@@ -92,7 +92,13 @@ body {
 
 .splash-nav a {
 	margin: 3em;
+	position: relative;
 }
+
+.splash-nav #projects label { left:-19px; }
+.splash-nav #about label { left:-4px; }
+.splash-nav #contact label { left:-15px; }
+.splash-nav #resume label { left:-15px; }
 
 .splash-nav label {
 	position: absolute;
@@ -112,16 +118,11 @@ body {
 	transition: 1s;
 }
 
-/*.projects label { left: -165px; }
-.about label { left: -109px; }
-.contact label { left: -228px; }
-.resume label { left: -287px; }*/
-
 .splash-nav a:hover label {
 	display: inline-block;
 	opacity: 1;
-	top: 600px;
-	left: 790px;
+	top: 100px;
+	left: 0px;
 }
 
 /*.nav-subtitles ul {
