@@ -1,16 +1,22 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
 
+body {
+	background-color: white;
+}
+
 .splash-content {
 	text-align: center;
 	margin-top: 22em;
 }
 
-.splash-content h1 {
+.main-title h1 {
 	font-size: 6em;
 	font-family: "Open Sans";
+	margin-bottom: .5em;
 }
 
 .projects img {
+	width: 67px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
     -ms-transition: all .5s ease; /* IE 9 */
@@ -19,14 +25,15 @@
 }
 
 .projects:hover img {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
+    -webkit-transform:scale(1.75); /* Safari and Chrome */
+    -moz-transform:scale(1.75); /* Firefox */
+    -ms-transform:scale(1.75); /* IE 9 */
+    -o-transform:scale(1.75); /* Opera */
+     transform:scale(1.75);
 }
 
 .about img {
+	width: 50px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
     -ms-transition: all .5s ease; /* IE 9 */
@@ -35,14 +42,15 @@
 }
 
 .about:hover img {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
+    -webkit-transform:scale(1.75); /* Safari and Chrome */
+    -moz-transform:scale(1.75); /* Firefox */
+    -ms-transform:scale(1.75); /* IE 9 */
+    -o-transform:scale(1.75); /* Opera */
+     transform:scale(1.75);
 }
 
 .contact img {
+	width: 50px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
     -ms-transition: all .5s ease; /* IE 9 */
@@ -51,14 +59,15 @@
 }
 
 .contact:hover img {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
+    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+    -o-transform:scale(1.75) rotate(90deg); /* Opera */
+     transform:scale(1.75) rotate(90deg);
 }
 
 .resume img {
+	width: 50px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
     -ms-transition: all .5s ease; /* IE 9 */
@@ -67,15 +76,16 @@
 }
 
 .resume:hover img {
-    -webkit-transform:scale(1.25); /* Safari and Chrome */
-    -moz-transform:scale(1.25); /* Firefox */
-    -ms-transform:scale(1.25); /* IE 9 */
-    -o-transform:scale(1.25); /* Opera */
-     transform:scale(1.25);
+    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+    -o-transform:scale(1.75) rotate(90deg); /* Opera */
+     transform:scale(1.75) rotate(90deg);
 }
 
 .splash-nav a {
 	margin: 2em;
 	font-family: "Open Sans";
 	font-size: 1.3em;
+	color: rgb(120,120,120);
 }
