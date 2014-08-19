@@ -113,17 +113,23 @@ body {
 .splash-nav #resume label { left:-15px; }
 
 .splash-nav a label {
-	display: inline-block;
+	display: none;
 	opacity: 0;
-	-webkit-transition: opacity .27s linear;
-	-moz-transition: opacity .27s linear;
-	-ms-transition: opacity .27s linear;
-	-o-transition: opacity .27s linear;
-	transition: opacity .27s linear;
+	-webkit-transition: opacity .27s linear, display 0s linear .4s;
+	-moz-transition: opacity .27s linear, display 0s linear .4s;
+	-ms-transition: opacity .27s linear, display 0s linear .4s;
+	-o-transition: opacity .27s linear, display 0s linear .4s;
+	transition: opacity .27s linear, display 0s linear .4s;
 }
 
 .splash-nav a:hover label {
+	display: inline-block;
 	opacity: 1;
+	-webkit-transition: opacity 0.27s linear, display 0s linear 0s;
+	-moz-transition: opacity 0.27s linear, display 0s linear 0s;
+	-ms-transition: opacity 0.27s linear, display 0s linear 0s;
+	-o-transition: opacity 0.27s linear, display 0s linear 0s;
+	transition: opacity 0.27s linear, display 0s linear 0s;
 }
 
 /*.nav-subtitles ul {
