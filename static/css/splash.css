@@ -12,11 +12,18 @@ body {
 .main-title h1 {
 	font-size: 6em;
 	font-family: "Open Sans";
+	margin: auto;
 	margin-bottom: .5em;
+	border-style: solid;
+	border-width: 2px;
+	/*border-color: rgb(170,170,170);*/
+	border-radius: 100;
+	width: 8em;
+	padding-bottom: 10px;
 }
 
 .projects img {
-	width: 67px;
+	width: 69px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
     -ms-transition: all .5s ease; /* IE 9 */
@@ -88,4 +95,16 @@ body {
 	font-family: "Open Sans";
 	font-size: 1.3em;
 	color: rgb(120,120,120);
+}
+
+.nav-subtitles ul {
+	margin-right: 2em;
+}
+
+.nav-subtitles ul li {
+	display: inline;
+	margin-right: 2.8em;
+	margin-left: 2.8em;
+	font-style: "Open Sans";
+	color: rgb(150,150,150);
 }
