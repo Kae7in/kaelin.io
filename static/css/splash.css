@@ -101,7 +101,7 @@ body {
 	text-align: center;
 	top: 100px;
 	left: -100px;
-	display: none;
+	display: inline-block;
 	font-family: "Open Sans";
 	font-size: 30px;
 	color: rgb(120,120,120);
@@ -113,8 +113,8 @@ body {
 .splash-nav #resume label { left:-15px; }
 
 .splash-nav a label {
-	display: none;
 	opacity: 0;
+	visibility: hidden;
 	-webkit-transition: opacity .27s linear, display 0s linear .4s;
 	-moz-transition: opacity .27s linear, display 0s linear .4s;
 	-ms-transition: opacity .27s linear, display 0s linear .4s;
@@ -123,8 +123,8 @@ body {
 }
 
 .splash-nav a:hover label {
-	display: inline-block;
 	opacity: 1;
+	visibility: visible;
 	-webkit-transition: opacity 0.27s linear, display 0s linear 0s;
 	-moz-transition: opacity 0.27s linear, display 0s linear 0s;
 	-ms-transition: opacity 0.27s linear, display 0s linear 0s;
