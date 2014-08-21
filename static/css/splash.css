@@ -107,10 +107,10 @@ body {
 	color: rgb(120,120,120);
 }
 
-.splash-nav #projects label { left:-19px; }
+.splash-nav #projects label { left:-20px; }
 .splash-nav #about label { left:-4px; }
 .splash-nav #contact label { left:-15px; }
-.splash-nav #resume label { left:-15px; }
+.splash-nav #resume label { left:-16px; }
 
 .splash-nav a label {
 	opacity: 0;
