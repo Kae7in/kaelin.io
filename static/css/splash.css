@@ -4,6 +4,22 @@ body {
 	background-color: white;
 }
 
+.navbar-brand,
+.navbar-nav li a {
+	line-height: 70px;
+	height: 70px;
+	padding-top: 0;
+}
+
+#navbar-logo {
+	max-width: 60px;
+	margin-top: 5px;
+}
+
+.navbar {
+	background-color: white;
+}
+
 .splash-content {
 	text-align: center;
 	margin-top: 22em;
