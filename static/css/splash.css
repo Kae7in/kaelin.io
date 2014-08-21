@@ -107,19 +107,19 @@ body {
 	color: rgb(120,120,120);
 }
 
-.splash-nav #projects label { left:-21px; }
-.splash-nav #about label { left:-6px; }
-.splash-nav #contact label { left:-17px; }
-.splash-nav #resume label { left:-17px; }
+.splash-nav #projects label { left:-19px; }
+.splash-nav #about label { left:-5px; }
+.splash-nav #contact label { left:-16px; }
+.splash-nav #resume label { left:-16px; }
 
 .splash-nav a label {
-	opacity: 0;
 	visibility: hidden;
 	-webkit-transition: opacity .27s linear, display 0s linear .4s;
 	-moz-transition: opacity .27s linear, display 0s linear .4s;
 	-ms-transition: opacity .27s linear, display 0s linear .4s;
 	-o-transition: opacity .27s linear, display 0s linear .4s;
 	transition: opacity .27s linear, display 0s linear .4s;
+	opacity: 0;
 }
 
 .splash-nav a:hover label {
