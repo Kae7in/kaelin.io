@@ -6,8 +6,8 @@ body {
 
 .navbar-brand,
 .navbar-nav li a {
-	line-height: 70px;
-	height: 70px;
+	line-height: 50px;
+	height: 50px;
 	padding-top: 0;
 }
 
@@ -34,6 +34,28 @@ body {
 	padding-bottom: 10px;
 }
 
+.main-title a {
+	color: black;
+	text-decoration: none;
+}
+
+#blog img {
+	width: 80px;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+#blog:hover img {
+    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+    -o-transform:scale(1.75) rotate(90deg); /* Opera */
+     transform:scale(1.75) rotate(90deg);
+}
+
 #projects img {
 	width: 80px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
@@ -44,6 +66,23 @@ body {
 }
 
 #projects:hover img {
+    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+    -o-transform:scale(1.75) rotate(90deg); /* Opera */
+     transform:scale(1.75) rotate(90deg);
+}
+
+#music img {
+	width: 80px;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+#music:hover img {
     -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
     -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
     -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
@@ -85,25 +124,8 @@ body {
      transform:scale(1.75) rotate(90deg);
 }
 
-#resume img {
-	width: 80px;
-    -webkit-transition: all .5s ease; /* Safari and Chrome */
-    -moz-transition: all .5s ease; /* Firefox */
-    -ms-transition: all .5s ease; /* IE 9 */
-    -o-transition: all .5s ease; /* Opera */
-    transition: all .5s ease;
-}
-
-#resume:hover img {
-    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
-    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
-    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
-    -o-transform:scale(1.75) rotate(90deg); /* Opera */
-     transform:scale(1.75) rotate(90deg);
-}
-
 .splash-nav a {
-	margin: 3em;
+	margin: 2em;
 	position: relative;
 }
 
@@ -119,10 +141,11 @@ body {
 	color: rgb(120,120,120);
 }
 
-.splash-nav #projects label { left:-19px; }
-.splash-nav #about label { left:-5px; }
-.splash-nav #contact label { left:-16px; }
-.splash-nav #resume label { left:-16px; }
+.splash-nav #blog label { left:-1px; }
+.splash-nav #projects label { left:-18px; }
+.splash-nav #music label { left:-3px; }
+.splash-nav #about label { left:-3px; }
+.splash-nav #contact label { left: -16px;}
 
 .splash-nav a label {
 	visibility: hidden;
@@ -143,15 +166,3 @@ body {
 	-o-transition: opacity 0.27s linear, display 0s linear 0s;
 	transition: opacity 0.27s linear, display 0s linear 0s;
 }
-
-/*.nav-subtitles ul {
-	margin-right: 2em;
-}
-
-.nav-subtitles ul li {
-	display: inline;
-	margin-right: 2.8em;
-	margin-left: 2.8em;
-	font-style: "Open Sans";
-	color: rgb(150,150,150);
-}*/
