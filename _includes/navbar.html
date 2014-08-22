@@ -18,10 +18,16 @@
 
 
         <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse navbar-middle" id="bs-example-navbar-collapse-1">
+        <div class="collapse navbar-collapse navbar-middle">
           <ul class="nav navbar-nav">
             <li class="{% if page.activeNavBarButton == "blog" %} active {% endif %}"><a href="/blog.html">Blog</a></li>
-            <li class="dropdown {% if page.activeNavBarButton == "projects" %} active {% endif %}"><a href="/projects.html">Projects</a></li>
+            <li class="dropdown{% if page.activeNavBarButton == "projects" %} active {% endif %}">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="/projects/maraudersmap.html">Marauder's Map</a></li>
+                <li><a href="#">Blog</a></li>
+              </ul>
+            </li>
             <li class="{% if page.activeNavBarButton == "music" %} active {% endif %}"><a href="/music.html">Music</a></li>
             <li class="{% if page.activeNavBarButton == "about" %} active {% endif %}"><a href="/about.html">About</a></li>
             <li class="{% if page.activeNavBarButton == "contact" %} active {% endif %}"><a href="/contact.html">Contact</a></li>
