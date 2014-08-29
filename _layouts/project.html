@@ -1,0 +1,21 @@
+---
+activeNavBarButton: "projects"
+layout: default
+---
+
+<div id="head">
+	<h1>{{ page.title }}</h1>
+
+		<div class="project_images">
+			{% for project in site.data.projectSpecs %}
+				{% if project.name == page.title %}
+					<img class="project_image" src="/static/images/{{ project.image }}">
+				{% endif %}
+			{% endfor %}
+		</div>
+
+</div>
+
+<div class="description">
+	{{ content }}
+</div>

@@ -1,0 +1,20 @@
+- name: Marauder's Map
+  id: maraudersmap
+  date: Summer 2014
+  image: maraudersmap1.jpeg
+  tools:
+    - Python
+    - Django
+    - MySQL
+    - Twitter Bootstrap
+    - PythonAnywhere
+    - Apiary
+    - Haystack
+
+- name: WeatherUp
+  id: weatherup
+  date: Fall 2014
+  image: comingsoon.png
+  tools:
+    - Objective C
+    - Xcode

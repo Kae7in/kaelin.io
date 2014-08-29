@@ -1,7 +1,16 @@
 ---
 activeNavBarButton: "projects"
-layout: projectsTemplate
+layout: default
 title: "Projects"
 ---
 
-<br>Projects previews here.
+{% for project in site.data.projectSpecs %}
+
+<h1>{{ project.name }}</h1>
+<img class="project_image" src="/static/images/{{ project.image }}">
+<ul>
+	{% for tool in project.tools %}
+		<li>{{ tool }}</li>
+	{% endfor %}
+</ul>
+{% endfor %}
