@@ -14,15 +14,13 @@ body {
 	font-family: "Open Sans";
 	margin: auto;
 	margin-bottom: .5em;
-	border-style: solid;
-	border-width: 4px;
 	/*border-color: rgb(170,170,170);*/
 	width: 8em;
 	padding-bottom: 10px;
 }
 
 .main-title a {
-	color: black;
+	color: rgb(160,160,160);
 	text-decoration: none;
 }
 
@@ -125,7 +123,7 @@ body {
 	display: inline-block;
 	font-family: "Open Sans";
 	font-size: 30px;
-	color: rgb(120,120,120);
+	color: rgb(160,160,160);
 }
 
 .splash-nav #blog label { left:-1px; }
@@ -135,12 +133,12 @@ body {
 .splash-nav #contact label { left: -16px;}
 
 .splash-nav a label {
-	visibility: hidden;
-	-webkit-transition: opacity .27s linear, display 0s linear .4s;
-	-moz-transition: opacity .27s linear, display 0s linear .4s;
-	-ms-transition: opacity .27s linear, display 0s linear .4s;
-	-o-transition: opacity .27s linear, display 0s linear .4s;
-	transition: opacity .27s linear, display 0s linear .4s;
+	-webkit-transition: visibility 0s linear 0.5s, opacity 0.27s linear;
+	-moz-transition: visibility 0s linear 0.5s, opacity 0.27s linear;
+	-ms-transition: visibility 0s linear 0.5s, opacity 0.27s linear;
+	-o-transition: visibility 0s linear 0.5s, opacity 0.27s linear;
+	transition: visibility 0s linear 0.5s, opacity 0.27s linear;
+    visibility: hidden;
 	opacity: 0;
 }
 
