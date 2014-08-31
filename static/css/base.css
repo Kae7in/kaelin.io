@@ -11,9 +11,15 @@ body {
 	padding-top: 0;
 }*/
 
+body {
+	padding-top: 50px;
+}
+
 .navbar {
 	background: rgb(255,255,255);
-	background: rgba(255,255,255,.5);
+	/*background: rgba(255,255,255,.5);*/
+	border-bottom: rgb(255,255,255);
+	/*border-bottom: rgba(255,255,255,.5);*/
 }
 
 .navbar .navbar-nav {
@@ -31,4 +37,29 @@ body {
 
 .dropdown:hover .dropdown-menu {
   display: block;
+}
+
+.projects {
+	text-align: center;
+}
+
+.projects h1 {
+	font-family: "Open Sans";
+	font-size: 40px;
+	color: rgb(160,160,160);
+	margin-right: 711px;
+}
+
+.projects .project_image {
+	width: 1000px;
+}
+
+.project {
+	margin-top: 100px;
+}
+
+.project ul {
+	font-family: "Palatino Linotype";
+	text-align: center;
+	list-style-type: none;
 }

@@ -4,13 +4,17 @@ layout: default
 title: "Projects"
 ---
 
-{% for project in site.data.projectSpecs %}
-
-<h1>{{ project.name }}</h1>
-<img class="project_image" src="/static/images/{{ project.image }}">
-<ul>
-	{% for tool in project.tools %}
-		<li>{{ tool }}</li>
+<div class="projects">
+	{% for project in site.data.projectSpecs %}
+	<div class="project" id="{{ project.id }}">
+			<h1>{{ project.name }}</h1>
+			<img class="project_image" src="/static/images/{{ project.image }}">
+			<ul>
+				<li><h3>Technologies Used</h3></li>
+				{% for tool in project.tools %}
+					<li>{{ tool }}</li>
+				{% endfor %}
+			</ul>
+		</div>
 	{% endfor %}
-</ul>
-{% endfor %}
+</div>
