@@ -9,10 +9,10 @@ title: "Projects"
 	<div class="project" id="{{ project.id }}">
 			<h1>{{ project.name }}</h1>
 			<img class="project_image" src="/static/images/{{ project.image }}">
+			<h3 id="technologies-used">Technologies Used</h3>
 			<ul>
-				<li><h3>Technologies Used</h3></li>
 				{% for tool in project.tools %}
-					<li>{{ tool }}</li>
+					<li>- {{ tool }}</li>
 				{% endfor %}
 			</ul>
 		</div>

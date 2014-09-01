@@ -56,10 +56,19 @@ body {
 
 .project {
 	margin-top: 100px;
+	position: relative;
+}
+
+#technologies-used {
+	font-family: "Palatino Linotype";
+	text-align: center;
 }
 
 .project ul {
 	font-family: "Palatino Linotype";
-	text-align: center;
+	text-align: left;
 	list-style-type: none;
+	/*left: 710px;*/
+	left: 42%;
+	position: absolute;
 }
