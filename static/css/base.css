@@ -59,16 +59,16 @@ body {
 	position: relative;
 }
 
-#technologies-used {
+.project-description {
+	display: inline-block;
 	font-family: "Palatino Linotype";
 	text-align: center;
+	/*left: 710px;*/
+	/*left: 42%;*/
+	top: 500px;
+	position: absolute;
 }
 
-.project ul {
-	font-family: "Palatino Linotype";
-	text-align: left;
+.project-description ul {
 	list-style-type: none;
-	/*left: 710px;*/
-	left: 42%;
-	position: absolute;
 }
