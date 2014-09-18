@@ -47,11 +47,11 @@ body {
 	font-family: "Open Sans";
 	font-size: 40px;
 	color: rgb(160,160,160);
-	margin-right: 711px;
+	/*margin-right: 711px;*/
 }
 
-.projects .project_image {
-	width: 1000px;
+.projects .project_splash {
+	max-width: 1000px;
 }
 
 .project {
@@ -59,16 +59,125 @@ body {
 	position: relative;
 }
 
-.project-description {
-	display: inline-block;
-	font-family: "Palatino Linotype";
+#head #title {
 	text-align: center;
-	/*left: 710px;*/
-	/*left: 42%;*/
-	top: 500px;
-	position: absolute;
+	font-family: "Open Sans";
+	font-size: 40px;
+	/*margin-right: 712px;*/
+	padding: 0;
 }
 
-.project-description ul {
+/*Marauder's Map*/
+/***************************/
+.maraudersmap {
+	text-align: center;
+}
+
+.maraudersmap .main_image {
+	max-width: 1000px;
+}
+
+.maraudersmap .tech {
+	/*position: absolute;*/
+	max-width: 300px;
+	text-align: center;
+	margin-right: 0px;
+	font-family: "Open Sans";
+	border-style: solid;
+	margin-top: 65px;
+	padding: 10px;
+	padding-top: 0px;
+	/*display: inline-block;*/
+}
+
+.maraudersmap .tech h3 {
+	font-size: 30px;
+}
+
+.maraudersmap .tech h5 {
+	text-align: left;
+	position: relative;
+	left: 10px;
+}
+
+.maraudersmap .description h3 {
+	margin-top: 70px;
+	font-family: "Open Sans";
+	font-size: 30px;
+}
+
+.maraudersmap .description p {
+	font-family: "Open Sans";
+	max-width: 1000px;
+	text-align: left;
+	display: inline-block;
+}
+/***************************/
+
+
+
+/*Netflix Ratings Prediction*/
+/***************************/
+.netflix {
+	text-align: center;
+}
+
+.netflix .main_image {
+	max-width: 1000px;
+}
+
+.netflix .tech {
+	/*position: absolute;*/
+	max-width: 300px;
+	text-align: center;
+	font-family: "Open Sans";
+	border-style: solid;
+	margin-top: 65px;
+	padding: 10px;
+	padding-top: 0px;
+	/*display: inline-block;*/
+}
+
+.netflix .tech h3 {
+	font-size: 30px;
+}
+
+.netflix .tech h5 {
+	text-align: left;
+	position: relative;
+	left: 10px;
+}
+
+.netflix .description h3 {
+	margin-top: 70px;
+	font-family: "Open Sans";
+	font-size: 30px;
+}
+
+.netflix .description p {
+	font-family: "Open Sans";
+	max-width: 1000px;
+	text-align: left;
+	display: inline-block;
+}
+/***************************/
+
+.music {
+	text-align: center;
+}
+
+.music .video_list ul {
 	list-style-type: none;
 }
+
+.music .video_list li {
+	margin-top: 100px;
+}
+
+/*.maraudersmap ul {
+	list-style-type: none;
+}*/
+
+/*.maraudersmap ul, .maraudersmap li {
+    margin: 0; padding: 0;
+}*/

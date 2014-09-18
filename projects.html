@@ -8,15 +8,7 @@ title: "Projects"
 	{% for project in site.data.projectSpecs %}
 	<div class="project" id="{{ project.id }}">
 			<h1>{{ project.name }}</h1>
-			<img class="project_image" src="/static/images/{{ project.image }}">
-			<div class="project-description">
-				<h3>Technologies Used</h3>
-				<ul>
-					{% for tool in project.tools %}
-						<li>- {{ tool }}</li>
-					{% endfor %}
-				</ul>
-			</div>
+			<a href="/projects/{{ project.link }}"><img class="project_splash" src="/static/images/{{ project.image }}"></a>
 		</div>
 	{% endfor %}
 </div>
