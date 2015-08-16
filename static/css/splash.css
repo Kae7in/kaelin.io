@@ -22,6 +22,12 @@ body {
 	padding-bottom: 10px;
 }
 
+@media screen and (max-width: 768px) {
+    .main-title h1 {
+        font-size: 3em;
+    }
+}
+
 .main-title a {
 	color: rgb(160,160,160);
 	text-decoration: none;
@@ -29,6 +35,15 @@ body {
 
 #blog img {
 	width: 80px;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+}
+
+#blog:active img {
+    width: 80px;
     -webkit-transition: all .5s ease; /* Safari and Chrome */
     -moz-transition: all .5s ease; /* Firefox */
     -ms-transition: all .5s ease; /* IE 9 */
@@ -115,6 +130,12 @@ body {
 .splash-nav a {
 	margin: 2em;
 	position: relative;
+}
+
+@media screen and (max-width: 768px) {
+    .splash-nav a {
+        margin: .1em;
+    }
 }
 
 .splash-nav label {

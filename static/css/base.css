@@ -2,6 +2,8 @@
 
 html {
 	min-width: 1000px;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -17,6 +19,8 @@ body {
 
 body {
 	padding-top: 64px;
+	max-width: 100%;
+	overflow-x: hidden;
 }
 
 .navbar {
@@ -84,20 +88,14 @@ body {
 
 /*Music*/
 /***************************/
-.music {
-	text-align: center;
-}
-
-.music .video_list ul {
+.video_list ul {
 	list-style-type: none;
-	margin: 0 auto;
-	padding-right: 100px;
+	padding: 0 0 0 0;
+	margin: 100 0 0 0;
 }
 
-.music .video_list li {
-	margin-top: 100px;
-	display: inline-block;
-    vertical-align: top;
+.video_list li {
+	margin-bottom: 25px;
 }
 /***************************/
 
