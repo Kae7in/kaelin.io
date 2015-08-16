@@ -1,28 +1,28 @@
 ---
 layout: project
 title: "Marauder's Map"
+target_id: "maraudersmap"
 ---
 
-<div class="maraudersmap">
-	<img class="main_image" src="/static/images/maraudersmap1.jpeg">
-	<div class="tech">
-		<h3>Technologies Used</h3>
-		<h5>- Django</h5>
-		<h5>- MySQL</h5>
-		<h5>- Twitter Bootstrap</h5>
-		<h5>- PythonAnywhere</h5>
-		<h5>- Apiary</h5>
-		<h5>- Haystack</h5>
-	</div>
+{% for project in site.data.projectSpecs %}
+	{% if project.id == page.target_id %}
+		<div class="maraudersmap">
+			<img class="main_image {{ project.mainImage }}" src="/static/images/{{ project.mainImage }}">
+			<div class="tech">
+				<h3>Technologies Used</h3>
+					{% for tool in project.tools %}
+						<h5>- {{ tool }}</h5>
+					{% endfor %}
+			</div>
 
-	<div class="description">
-		<h3>Description</h2>
-		<p>Understanding the nature and relationship of every object and being throughout the Harry
-Potter landscape can be a monstrous task to tackle. There is a vast array of characters, spells,
-potions, and wands. Marauder's Map aims to simplify this data­overload problem by explicitly
-defining nearly every aspect of Harry Potter in a more easily navigable, dynamic manner. Every
-creature and object is clearly defined in a concise way that allows the user to easily navigate
-from model to model (defined in Django), portraying not only details about that model but also the
-relationships it holds with the rest of the Harry Potter world.</p>
-	</div>
-</div>
+			<div class="description">
+				<h3>Description</h2>
+				<p>{{ project.description }}</p>
+			</div>
+			<div class="github">
+				<h3>GitHub</h3>
+				<a href="project.github"><img src="/static/images/github.png"></a>
+			</div>
+		</div>
+	{% endif %}
+{% endfor %}

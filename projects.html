@@ -6,9 +6,9 @@ title: "Projects"
 
 <div class="projects">
 	{% for project in site.data.projectSpecs %}
-	<div class="project" id="{{ project.id }}">
+	<div class="project {{ project.id }}">
 			<h1>{{ project.name }}</h1>
-			<a href="/projects/{{ project.link }}"><img class="project_splash" src="/static/images/{{ project.image }}"></a>
-		</div>
+			<a href="/projects/{{ project.link }}"><img class="project_splash" src="/static/images/{{ project.mainImage }}"></a>
+	</div>
 	{% endfor %}
 </div>

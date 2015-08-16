@@ -8,7 +8,7 @@ body {
 	text-align: center;
     position: absolute;
     top: calc(50% - 125px);
-    width: 800px;
+    min-width: 800px;
     left: calc(50% - 400px);
 }
 
@@ -17,7 +17,8 @@ body {
 	font-family: "Open Sans";
 	margin: auto;
 	margin-bottom: .5em;
-	width: 8em;
+	/*width: 8em;*/
+    min-width: 8em;
 	padding-bottom: 10px;
 }
 

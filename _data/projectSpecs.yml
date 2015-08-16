@@ -1,7 +1,7 @@
-- name: Marauder's Map
-  id: maraudersmap
+- id: maraudersmap
+  name: Marauder's Map
   date: Summer 2014
-  image: maraudersmap1.jpeg
+  mainImage: maraudersmap1.jpeg
   link: maraudersmap.html
   tools:
     - Python
@@ -11,23 +11,22 @@
     - PythonAnywhere
     - Apiary
     - Haystack
-  description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+  github: https://github.com/Kae7in/cs373-idb
+  description: Understanding the nature and relationship of every object and being throughout the Harry
+    Potter landscape can be a monstrous task to tackle. There is a vast array of characters, spells,
+    potions, and wands. Marauder's Map aims to simplify this data-overload problem by explicitly
+    defining nearly every aspect of Harry Potter in a more easily navigable, dynamic manner. Every
+    creature and object is clearly defined in a concise way that allows the user to easily navigate
+    from model to model (defined in Django), portraying not only details about that model but also the
+    relationships it holds with the rest of the Harry Potter world.
 
-- name: Netflix Ratings Prediction
-  id: netflix
-  date: Summer 2014
-  image: netflix.png
-  link: netflix.html
+- id: check-in-host
+  name: Check-in Host
+  date: Spring 2015
+  mainImage: check-in-host/mainImage.png
+  link: check-in-host.html
   tools:
-    - Python
-  description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
-
-- name: WeatherUp
-  id: weatherup
-  date: Fall 2014
-  image: comingsoon.png
-  link: weatherup.html
-  tools:
-    - Objective C
-    - Xcode
-  description: "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat."
+    - Objective-C
+    - Parse
+    - Facebook iOS SDK
+  description: At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
