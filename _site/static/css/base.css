@@ -1,9 +1,9 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
 
 html {
-	min-width: 1000px;
-	max-width: 100%;
-	overflow-x: hidden;
+	min-width: 300px;
+	/*max-width: 100%;*/
+	/*overflow-x: hidden;*/
 }
 
 body {
@@ -19,8 +19,8 @@ body {
 
 body {
 	padding-top: 64px;
-	max-width: 100%;
-	overflow-x: hidden;
+	/*max-width: 100%;*/
+	/*overflow-x: hidden;*/
 }
 
 .navbar {
@@ -63,6 +63,7 @@ body {
 }
 
 .projects .project_splash {
+	box-shadow: 5px 5px 20px #CCCCCC;
 	max-width: 1000px;
 }
 
@@ -70,8 +71,13 @@ body {
 	max-width: 300px;
 }
 
+.prep-ios .project_splash {
+	max-width: 300px;
+}
+
 .project {
 	margin-top: 100px;
+	margin-bottom: 100px;
 	position: relative;
 }
 
@@ -101,124 +107,84 @@ body {
 
 
 
-/*Marauder's Map*/
+/*Project Content*/
 /***************************/
-.maraudersmap {
+.project_content {
 	text-align: center;
 	/*position: absolute;*/
 	/*left: 20%;*/
 }
 
-.maraudersmap .main_image {
-	max-width: 1000px;
-}
-
-.maraudersmap .tech {
-	/*position: absolute;*/
-	max-width: 300px;
-	text-align: center;
-	margin: 0 auto;
-	font-family: "Open Sans";
-	border-style: solid;
-	margin-top: 65px;
-	padding: 0 10px 10px 10px;
-	/*display: inline-block;*/
-}
-
-.maraudersmap .tech h3 {
-	font-size: 30px;
-}
-
-.maraudersmap .tech h5 {
-	text-align: left;
-	position: relative;
-	left: 10px;
-}
-
-.maraudersmap .description h3 {
-	margin-top: 70px;
-	font-family: "Open Sans";
-	font-size: 30px;
-}
-
-.maraudersmap .description p {
-	font-family: "Open Sans";
-	max-width: 1000px;
-	text-align: left;
-	display: inline-block;
-}
-
-.maraudersmap .github h3 {
-	margin-top: 35px;
-	font-family: "Open Sans";
-	font-size: 30px;
-}
-
-.maraudersmap .github img {
-	margin-top: 5px;
-	margin-bottom: 50px;
-	width: 100px;
-}
-/***************************/
-
-
-
-/* Check-in Host */
-/***************************/
-.check-in-host {
-	text-align: center;
-	/*position: absolute;*/
-	/*left: 20%;*/
+.main_image {
+	margin-top: 50px;
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 100%;
+    height: auto;
 }
 
 .check-in-host .main_image {
-	max-width: 300px;
+    max-width:350px;
+    max-height:1000px;
+    width: 100%;
+    height: auto;
 }
 
-.check-in-host .tech {
+.prep-ios .main_image {
+    max-width:350px;
+    max-height:1000px;
+    width: 100%;
+    height: auto;
+}
+
+.tech {
 	/*position: absolute;*/
 	max-width: 300px;
 	text-align: center;
 	margin: 0 auto;
 	font-family: "Open Sans";
 	border-style: solid;
-	margin-top: 65px;
+	margin-top: 30px;
+	margin-bottom: 30px;
 	padding: 0 10px 10px 10px;
 	/*display: inline-block;*/
 }
 
-.check-in-host .tech h3 {
+.tech h3 {
 	font-size: 30px;
 }
 
-.check-in-host .tech h5 {
+.tech h5 {
 	text-align: left;
 	position: relative;
 	left: 10px;
 }
 
-.check-in-host .description h3 {
+.description h3 {
 	margin-top: 70px;
 	font-family: "Open Sans";
 	font-size: 30px;
 }
 
-.check-in-host .description p {
+.description p {
 	font-family: "Open Sans";
-	max-width: 1000px;
+	/*min-width: 100px;*/
+	width: auto;
+	max-width: 500px;
 	text-align: left;
 	display: inline-block;
+	margin-bottom: 100px;
 }
 
-.check-in-host .github h3 {
-	margin-top: 35px;
+.github h3 {
+	margin-top: 45px;
 	font-family: "Open Sans";
-	font-size: 30px;
+	font-size: 20px;
 }
 
-.check-in-host .github img {
+.github img {
 	margin-top: 5px;
-	margin-bottom: 50px;
-	width: 100px;
+	/*margin-bottom: 50px;*/
+	width: 50px;
 }
 /***************************/

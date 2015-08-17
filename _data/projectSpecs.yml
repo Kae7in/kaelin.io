@@ -1,7 +1,44 @@
+- id: prep-ios
+  name: PReP iOS App
+  date: Summer 2015
+  mainImage: prep-ios/mainImage.png
+  link: prep-ios.html
+  tools:
+    - Swift
+    - XCode
+  github: https://github.com/Kae7in/PReP_iOS
+  description: PReP is a webapp owned and developed by PwC (PricewaterhouseCoopers) that aims to aid the U.S. tax
+    partners in filing their own tax returns. It's basically a large form system that can handle complex relationships
+    (including many-to-one and many-to-many) between fields. The PReP iOS app allows users to take a photo of tax-related
+    items such as a W-2 or even a physical object (e.g. a couch) that was purchased by the user. These photos can then be
+    uploaded and associated with a particular field in the form, acting as a reference for where the data in that field came
+    from - something especially useful in the case of an audit.
+
+
+- id: check-in-host
+  name: Check-in Host
+  date: Spring 2015
+  mainImage: check-in-host/mainImage.png
+  link: check-in-host.html
+  tools:
+    - Objective-C
+    - Parse
+    - Facebook iOS SDK
+    - XCode
+  github: https://github.com/Kae7in/Check-in-Host
+  description: This app aims to make the task of taking attendance at events hosted by individuals and 
+    organizations much easier. To do this, I allow users to create a events with a specified location and
+    time. Other users can check-in to these events only if they are within a specified radius from the 
+    event location and if they are within the time frame of the event (start and end time). A list of
+    attendees who were verified will automatically be pushed to the host's device. This app can eliminate 
+    the need for using Google Docs, iClickers, or email, all very cumbersome means to (sometimes fraudulently)
+     verify attendance.
+
+
 - id: maraudersmap
   name: Marauder's Map
   date: Summer 2014
-  mainImage: maraudersmap1.jpeg
+  mainImage: maraudersmap/mainImage.jpeg
   link: maraudersmap.html
   tools:
     - Python
@@ -19,14 +56,3 @@
     creature and object is clearly defined in a concise way that allows the user to easily navigate
     from model to model (defined in Django), portraying not only details about that model but also the
     relationships it holds with the rest of the Harry Potter world.
-
-- id: check-in-host
-  name: Check-in Host
-  date: Spring 2015
-  mainImage: check-in-host/mainImage.png
-  link: check-in-host.html
-  tools:
-    - Objective-C
-    - Parse
-    - Facebook iOS SDK
-  description: At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
