@@ -1,0 +1,37 @@
+---
+layout: project
+title: "Active Rocket Stabilization System"
+target_id: "dream-team"
+---
+
+{% for project in site.data.projectSpecs %}
+	{% if project.id == page.target_id %}
+		<div class="dream-team">
+
+			<div class="jumbotron">
+			  <h1>{{ project.name }}</h1>
+			  <div class="tech">
+				<h3>Technologies Used</h3>
+					{% for tool in project.tools %}
+						<h5>- {{ tool }}</h5>
+					{% endfor %}
+				</div>
+			  	<div class="github">
+					<h3>GitHub</h3>
+					<a href="{{ project.github }}"><img src="/static/images/github.png"></a>
+				</div>
+			</div>
+
+			<img class="main_image {{ project.mainImage }}" src="/static/images/{{ project.mainImage }}">
+			<div class="description">
+				<h3>Description</h2>
+				<p>{{ project.description }}</p>
+			</div>
+
+			<div class="additionalImages">
+
+			</div>
+
+		</div>
+	{% endif %}
+{% endfor %}

@@ -15,45 +15,6 @@
     from - something especially useful in the case of an audit.
 
 
-- id: tcc
-  name: Texas Charity Chase Association Web App
-  date: Summer 2015 - Present
-  mainImage: tcc/mainImage.png
-  link: tcc.html
-  tools:
-    - HTML/CSS
-    - Express.js
-    - Parse
-  github: https://github.com/Kae7in/TexasCharityChase
-  description: Currently designing and building web app for use by non-for-profit that will host yearly runs.
-
-
-- id: dream-team
-  name: Active Rocket Stabilization System
-  date: Spring 2015 - Present
-  mainImage: dream-team/mainImage.png
-  link: dream-team.html
-  tools:
-    - Arduino
-    - C++
-  github: https://github.com/Kae7in/PReP_iOS
-  description: Designed and am currently building a guidance system for the Longhorn Rocket Association’s 2016
-    competition rocket. This system uses an Arduino, an Adafruit 10 DOF IMU breakout board, and 4 digital servos
-    to control variable pitch fins on the body of the rocket in order to keep a straight ascent to 10,000 ft. 
-    This project involves collaboration between students in the Computer Science and Aerospace Engineering departments.
-
-
-- id: cert-rocket
-  name: Level 2 Certification Rocket
-  date: Spring 2015 - Present
-  mainImage: cert-rocket/mainImage.png
-  link: cert-rocket.html
-  tools:
-    - Open Rocket
-    - UT Aerospace Lab
-  github: https://github.com/Kae7in/PReP_iOS
-  description: Obtaining Level 2 Motor Certification
-
 
 - id: check-in-host
   name: Check-in Host
@@ -73,6 +34,50 @@
     attendees who were verified will automatically be pushed to the host's device. This app can eliminate 
     the need for using Google Docs, iClickers, or email, all very cumbersome means to (sometimes fraudulently)
      verify attendance.
+
+
+
+- id: tcc
+  name: Texas Charity Chase Association Web App
+  date: Summer 2015 - Present
+  mainImage: tcc/mainImage.png
+  link: tcc.html
+  tools:
+    - HTML/CSS
+    - Express.js
+    - Parse
+  github: https://github.com/Kae7in/TexasCharityChase
+  description: Currently designing and building web app for use by non-for-profit that will host yearly runs.
+
+
+
+- id: dream-team
+  name: Active Rocket Stabilization System
+  date: Spring 2015 - Present
+  mainImage: dream-team/mainImage.png
+  link: dream-team.html
+  tools:
+    - Arduino
+    - C++
+  github: https://github.com/Kae7in/PReP_iOS
+  description: Designed and am currently building a guidance system for the Longhorn Rocket Association’s 2016
+    competition rocket. This system uses an Arduino, an Adafruit 10 DOF IMU breakout board, and 4 digital servos
+    to control variable pitch fins on the body of the rocket in order to keep a straight ascent to 10,000 ft. 
+    This project involves collaboration between students in the Computer Science and Aerospace Engineering departments.
+
+
+
+- id: cert-rocket
+  name: Level 2 Certification Rocket
+  date: Spring 2015 - Present
+  mainImage: cert-rocket/mainImage.png
+  link: cert-rocket.html
+  tools:
+    - Open Rocket
+    - UT Aerospace Lab
+  github: https://github.com/Kae7in/PReP_iOS
+  description: Obtaining Level 2 Motor Certification
+
 
 
 - id: maraudersmap
