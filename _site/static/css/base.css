@@ -62,6 +62,12 @@ body {
 	/*margin-right: 711px;*/
 }
 
+.projects h6 {
+	font-family: "Open Sans";
+	font-size: 20px;
+	color: rgb(160,160,160);
+}
+
 .projects .project_splash {
 	box-shadow: 5px 5px 20px #CCCCCC;
     max-width: 1000px;

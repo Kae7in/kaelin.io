@@ -9,6 +9,7 @@ title: "Projects"
 	<div class="project {{ project.id }}">
 			<h1>{{ project.name }}</h1>
 			<a href="/projects/{{ project.link }}"><img class="project_splash" src="/static/images/{{ project.mainImage }}"></a>
+			<h6>{{ project.date }}</h6>
 	</div>
 	{% endfor %}
 </div>
