@@ -64,7 +64,11 @@ body {
 
 .projects .project_splash {
 	box-shadow: 5px 5px 20px #CCCCCC;
-	max-width: 1000px;
+	margin-top: 50px;
+    max-width: 1000px;
+    max-height: 1000px;
+    width: 100%;
+    height: auto;
 }
 
 .check-in-host .project_splash {
