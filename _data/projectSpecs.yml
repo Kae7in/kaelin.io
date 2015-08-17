@@ -80,6 +80,20 @@
 
 
 
+- id: pintos
+  name: Pintos Operating System
+  date: Spring 2015
+  mainImage: pintos/mainImage.png
+  link: pintos.html
+  tools:
+    - C
+    - Linux
+  github: https://github.com/Kae7in/PReP_iOS
+  description: Implemented the infrastructure for the life cycle of threads, user programs,
+   virtual memory, and file systems in the Pintos Operating System.
+
+
+
 - id: maraudersmap
   name: Marauder's Map
   date: Summer 2014
