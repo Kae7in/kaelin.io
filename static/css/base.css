@@ -190,13 +190,31 @@ body {
 }
 
 .about .portrait {
-	box-shadow: 5px 5px 20px #CCCCCC;
+	/*box-shadow: 5px 5px 20px #CCCCCC;*/
     max-width: 1000px;
     max-height: 1000px;
-    width: 100%;
+    width: 40%;
+    min-width: 300px;
     height: auto;
     -webkit-clip-path: url(#clipPath);
   	clip-path: url(#clipPath);
+}
+
+.about #tagline, .about #closingLine {
+	font-family: 'Open Sans', serif;
+	font-size: 17px;
+	width: 35%;
+	min-width: 350px;
+	margin: auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.about hr {
+	width: 40%;
+	min-width: 350px;
+	border-width: 1px;
+	border-color: rgb(180, 180, 180);
 }
 /***************************/
 
