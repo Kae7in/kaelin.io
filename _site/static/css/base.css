@@ -190,7 +190,7 @@ body {
 	/*box-shadow: 5px 5px 20px #CCCCCC;*/
     max-width: 1000px;
     max-height: 1000px;
-    width: 40%;
+    width: 35%;
     min-width: 300px;
     height: auto;
     -webkit-clip-path: url(#clipPath);
