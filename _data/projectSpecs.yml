@@ -70,7 +70,7 @@
 - id: cert-rocket
   name: Level 1 & 2 Certification Rocket
   date: Spring 2015 - Present
-  mainImage: cert-rocket/IMG_0757.jpg
+  mainImage: cert-rocket/IMG_0757.JPG
   link: cert-rocket.html
   tools:
     - Open Rocket
