@@ -67,16 +67,16 @@
 
 
 
-#- id: cert-rocket
-#  name: Level 2 Certification Rocket
-#  date: Spring 2015 - Present
-#  mainImage: cert-rocket/mainImage.png
-#  link: cert-rocket.html
-#  tools:
-#    - Open Rocket
-#    - UT Aerospace Lab
-#  github: http://www.kaelin.io/cert-rocket
-#  description: Obtaining Level 2 Motor Certification
+- id: cert-rocket
+  name: Level 1 & 2 Certification Rocket
+  date: Spring 2015 - Present
+  mainImage: cert-rocket/mainImage.png
+  link: cert-rocket.html
+  tools:
+    - Open Rocket
+    - UT Aerospace Lab
+  github: http://www.kaelin.io/cert-rocket
+  description: Obtaining level 1 & 2 motor certification via the Longhorn Rocketry Association at The University of Texas at Austin. This rocket will be over 6 ft. tall with a 3.5 in. diameter. All components except the motor are being fabricated by hand using mostly epoxy fiberglass and wood.
 
 
 
