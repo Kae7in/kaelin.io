@@ -51,12 +51,14 @@ body {
     transition: all .5s ease;
 }
 
-#blog:hover img {
-    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
-    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
-    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
-    -o-transform:scale(1.75) rotate(90deg); /* Opera */
-     transform:scale(1.75) rotate(90deg);
+@media screen and (min-width: 480px) {
+    #blog:hover img {
+        -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+        -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+        -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+        -o-transform:scale(1.75) rotate(90deg); /* Opera */
+        transform:scale(1.75) rotate(90deg);
+    }
 }
 
 #projects img {
@@ -68,12 +70,14 @@ body {
     transition: all .5s ease;
 }
 
-#projects:hover img {
-    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
-    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
-    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
-    -o-transform:scale(1.75) rotate(90deg); /* Opera */
-     transform:scale(1.75) rotate(90deg);
+@media screen and (min-width: 480px) {
+    #projects:hover img {
+        -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+        -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+        -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+        -o-transform:scale(1.75) rotate(90deg); /* Opera */
+        transform:scale(1.75) rotate(90deg);
+    }
 }
 
 #music img {
@@ -85,12 +89,14 @@ body {
     transition: all .5s ease;
 }
 
-#music:hover img {
-    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
-    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
-    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
-    -o-transform:scale(1.75) rotate(90deg); /* Opera */
-     transform:scale(1.75) rotate(90deg);
+@media screen and (min-width: 480px) {
+    #music:hover img {
+        -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+        -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+        -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+        -o-transform:scale(1.75) rotate(90deg); /* Opera */
+        transform:scale(1.75) rotate(90deg);
+    }
 }
 
 #about img {
@@ -102,12 +108,14 @@ body {
     transition: all .5s ease;
 }
 
-#about:hover img {
-    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
-    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
-    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
-    -o-transform:scale(1.75) rotate(90deg); /* Opera */
-     transform:scale(1.75) rotate(90deg);
+@media screen and (min-width: 480px) {
+    #about:hover img {
+        -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+        -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+        -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+        -o-transform:scale(1.75) rotate(90deg); /* Opera */
+        transform:scale(1.75) rotate(90deg);
+    }
 }
 
 #contact img {
@@ -119,12 +127,14 @@ body {
     transition: all .5s ease;
 }
 
-#contact:hover img {
-    -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
-    -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
-    -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
-    -o-transform:scale(1.75) rotate(90deg); /* Opera */
-     transform:scale(1.75) rotate(90deg);
+@media screen and (min-width: 480px) {
+    #contact:hover img {
+        -webkit-transform:scale(1.75) rotate(90deg); /* Safari and Chrome */
+        -moz-transform:scale(1.75) rotate(90deg); /* Firefox */
+        -ms-transform:scale(1.75) rotate(90deg); /* IE 9 */
+        -o-transform:scale(1.75) rotate(90deg); /* Opera */
+        transform:scale(1.75) rotate(90deg);
+    }
 }
 
 .splash-nav a {
@@ -166,14 +176,32 @@ body {
 	opacity: 0;
 }
 
-.splash-nav a:hover label {
-	opacity: 1;
-	visibility: visible;
-	-webkit-transition: opacity 0.27s linear, display 0s linear 0s;
-	-moz-transition: opacity 0.27s linear, display 0s linear 0s;
-	-ms-transition: opacity 0.27s linear, display 0s linear 0s;
-	-o-transition: opacity 0.27s linear, display 0s linear 0s;
-	transition: opacity 0.27s linear, display 0s linear 0s;
+@media screen and (max-width: 480px) {
+    .splash-nav a label {
+        opacity: 1;
+        visibility: visible;
+        font-size: 20px;
+    }
+
+    .splash-nav #projects label {
+        left: 0px;
+    }
+
+    .splash-nav #contact label {
+        left: 0px;
+    }
+}
+
+@media screen and (min-width: 480px) {
+    .splash-nav a:hover label {
+        opacity: 1;
+        visibility: visible;
+        -webkit-transition: opacity 0.27s linear, display 0s linear 0s;
+        -moz-transition: opacity 0.27s linear, display 0s linear 0s;
+        -ms-transition: opacity 0.27s linear, display 0s linear 0s;
+        -o-transition: opacity 0.27s linear, display 0s linear 0s;
+        transition: opacity 0.27s linear, display 0s linear 0s;
+    }
 }
 
 .splash-nav span {
@@ -192,12 +220,14 @@ body {
     transition: all .5s ease;
 }
 
-#blog:hover span {
-    -webkit-transform:scale(1.75); /* Safari and Chrome */
-    -moz-transform:scale(1.75); /* Firefox */
-    -ms-transform:scale(1.75); /* IE 9 */
-    -o-transform:scale(1.75); /* Opera */
-     transform:scale(1.75);
+@media screen and (min-width: 480px) {
+    #blog:hover span {
+        -webkit-transform:scale(1.75); /* Safari and Chrome */
+        -moz-transform:scale(1.75); /* Firefox */
+        -ms-transform:scale(1.75); /* IE 9 */
+        -o-transform:scale(1.75); /* Opera */
+        transform:scale(1.75);
+    }
 }
 
 #projects span {
@@ -210,12 +240,14 @@ body {
     transition: all .5s ease;
 }
 
-#projects:hover span {
-    -webkit-transform:scale(1.75); /* Safari and Chrome */
-    -moz-transform:scale(1.75); /* Firefox */
-    -ms-transform:scale(1.75); /* IE 9 */
-    -o-transform:scale(1.75); /* Opera */
-     transform:scale(1.75);
+@media screen and (min-width: 480px) {
+    #projects:hover span {
+        -webkit-transform:scale(1.75); /* Safari and Chrome */
+        -moz-transform:scale(1.75); /* Firefox */
+        -ms-transform:scale(1.75); /* IE 9 */
+        -o-transform:scale(1.75); /* Opera */
+        transform:scale(1.75);
+    }
 }
 
 #music span {
@@ -228,12 +260,14 @@ body {
     transition: all .5s ease;
 }
 
-#music:hover span {
-    -webkit-transform:scale(1.75); /* Safari and Chrome */
-    -moz-transform:scale(1.75); /* Firefox */
-    -ms-transform:scale(1.75); /* IE 9 */
-    -o-transform:scale(1.75); /* Opera */
-     transform:scale(1.75);
+@media screen and (min-width: 480px) {
+    #music:hover span {
+        -webkit-transform:scale(1.75); /* Safari and Chrome */
+        -moz-transform:scale(1.75); /* Firefox */
+        -ms-transform:scale(1.75); /* IE 9 */
+        -o-transform:scale(1.75); /* Opera */
+        transform:scale(1.75);
+    }
 }
 
 #about span {
@@ -246,12 +280,14 @@ body {
     transition: all .5s ease;
 }
 
-#about:hover span {
-    -webkit-transform:scale(1.75); /* Safari and Chrome */
-    -moz-transform:scale(1.75); /* Firefox */
-    -ms-transform:scale(1.75); /* IE 9 */
-    -o-transform:scale(1.75); /* Opera */
-     transform:scale(1.75);
+@media screen and (min-width: 480px) {
+    #about:hover span {
+        -webkit-transform:scale(1.75); /* Safari and Chrome */
+        -moz-transform:scale(1.75); /* Firefox */
+        -ms-transform:scale(1.75); /* IE 9 */
+        -o-transform:scale(1.75); /* Opera */
+        transform:scale(1.75);
+    }
 }
 
 #contact span {
@@ -264,10 +300,12 @@ body {
     transition: all .5s ease;
 }
 
-#contact:hover span {
-    -webkit-transform:scale(1.75); /* Safari and Chrome */
-    -moz-transform:scale(1.75); /* Firefox */
-    -ms-transform:scale(1.75); /* IE 9 */
-    -o-transform:scale(1.75); /* Opera */
-     transform:scale(1.75);
+@media screen and (min-width: 480px) {
+    #contact:hover span {
+        -webkit-transform:scale(1.75); /* Safari and Chrome */
+        -moz-transform:scale(1.75); /* Firefox */
+        -ms-transform:scale(1.75); /* IE 9 */
+        -o-transform:scale(1.75); /* Opera */
+        transform:scale(1.75);
+    }
 }
